@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barba Transition</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://unpkg.com/@barba/core"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+</head>
+
+<body data-barba="wrapper">
+
+
+    <main data-barba="container" data-barba-namespace="index">
+
+        <img src="images/image-1.jpg">
+
+        <h1 class="transition-element">INDEX</h1>
+        <a href="about.html" class="transition-element">go to <strong>about</strong></a>
+
+    </main>
+
+    <div class="transition-container">
+        <span id="from-top"></span>
+        <span id="from-bottom"></span>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
