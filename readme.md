@@ -31,8 +31,6 @@ barba.init({
 	],
 });
 
-we have an object here, 
-
 about sync mode:
 
 sync mod is disabled by default
